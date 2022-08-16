@@ -13,6 +13,22 @@
 		F6AA191228AB7C2A00F1876D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AA191028AB7C2A00F1876D /* Main.storyboard */; };
 		F6AA191428AB7C2B00F1876D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AA191328AB7C2B00F1876D /* Assets.xcassets */; };
 		F6AA191728AB7C2B00F1876D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6AA191528AB7C2B00F1876D /* LaunchScreen.storyboard */; };
+		F6AA192228AB7C6A00F1876D /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA192128AB7C6A00F1876D /* WeatherModel.swift */; };
+		F6AA192428AB7EA900F1876D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F6AA192328AB7EA900F1876D /* .gitignore */; };
+		F6AA192728AB7ED900F1876D /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA192628AB7ED900F1876D /* APIKey.swift */; };
+		F6AA192928AB82C100F1876D /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA192828AB82C100F1876D /* EndPoint.swift */; };
+		F6AA192B28AB82CC00F1876D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA192A28AB82CC00F1876D /* APIManager.swift */; };
+		F6AA192E28AB85B000F1876D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F6AA192D28AB85B000F1876D /* Alamofire */; };
+		F6AA193128AB85BB00F1876D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F6AA193028AB85BB00F1876D /* SwiftyJSON */; };
+		F6AA193C28ABA3CA00F1876D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F6AA193B28ABA3CA00F1876D /* Kingfisher */; };
+		F6AA194228ABAD3500F1876D /* WeatherImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AA194128ABAD3500F1876D /* WeatherImageView.xib */; };
+		F6AA194428ABAD4A00F1876D /* WeatherImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA194328ABAD4A00F1876D /* WeatherImageView.swift */; };
+		F6AA194828ABADAE00F1876D /* ContentLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA194728ABADAE00F1876D /* ContentLableView.swift */; };
+		F6AA194A28ABAE0700F1876D /* ContentLableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AA194928ABAE0700F1876D /* ContentLableView.xib */; };
+		F6AA194D28ABAFFD00F1876D /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA194B28ABAFFD00F1876D /* ImageTableViewCell.swift */; };
+		F6AA194E28ABAFFD00F1876D /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AA194C28ABAFFD00F1876D /* ImageTableViewCell.xib */; };
+		F6AA195128ABB00B00F1876D /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA194F28ABB00B00F1876D /* TextTableViewCell.swift */; };
+		F6AA195228ABB00B00F1876D /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6AA195028ABB00B00F1876D /* TextTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,19 @@
 		F6AA191328AB7C2B00F1876D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6AA191628AB7C2B00F1876D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6AA191828AB7C2B00F1876D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AA192128AB7C6A00F1876D /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		F6AA192328AB7EA900F1876D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F6AA192628AB7ED900F1876D /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		F6AA192828AB82C100F1876D /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		F6AA192A28AB82CC00F1876D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F6AA194128ABAD3500F1876D /* WeatherImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherImageView.xib; sourceTree = "<group>"; };
+		F6AA194328ABAD4A00F1876D /* WeatherImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherImageView.swift; sourceTree = "<group>"; };
+		F6AA194728ABADAE00F1876D /* ContentLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLableView.swift; sourceTree = "<group>"; };
+		F6AA194928ABAE0700F1876D /* ContentLableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentLableView.xib; sourceTree = "<group>"; };
+		F6AA194B28ABAFFD00F1876D /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		F6AA194C28ABAFFD00F1876D /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		F6AA194F28ABB00B00F1876D /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		F6AA195028ABB00B00F1876D /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA193C28ABA3CA00F1876D /* Kingfisher in Frameworks */,
+				F6AA193128AB85BB00F1876D /* SwiftyJSON in Frameworks */,
+				F6AA192E28AB85B000F1876D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +72,7 @@
 		F6AA18FE28AB7C2A00F1876D = {
 			isa = PBXGroup;
 			children = (
+				F6AA192328AB7EA900F1876D /* .gitignore */,
 				F6AA190928AB7C2A00F1876D /* SeSAC Week6 OpenWeather API */,
 				F6AA190828AB7C2A00F1876D /* Products */,
 			);
@@ -56,15 +89,59 @@
 		F6AA190928AB7C2A00F1876D /* SeSAC Week6 OpenWeather API */ = {
 			isa = PBXGroup;
 			children = (
-				F6AA190A28AB7C2A00F1876D /* AppDelegate.swift */,
-				F6AA190C28AB7C2A00F1876D /* SceneDelegate.swift */,
-				F6AA190E28AB7C2A00F1876D /* ViewController.swift */,
-				F6AA191028AB7C2A00F1876D /* Main.storyboard */,
+				F6AA192528AB7EC500F1876D /* Key */,
+				F6AA191E28AB7C3A00F1876D /* Model */,
+				F6AA192028AB7C4300F1876D /* Controllers */,
+				F6AA191F28AB7C3E00F1876D /* View */,
 				F6AA191328AB7C2B00F1876D /* Assets.xcassets */,
 				F6AA191528AB7C2B00F1876D /* LaunchScreen.storyboard */,
 				F6AA191828AB7C2B00F1876D /* Info.plist */,
 			);
 			path = "SeSAC Week6 OpenWeather API";
+			sourceTree = "<group>";
+		};
+		F6AA191E28AB7C3A00F1876D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA192128AB7C6A00F1876D /* WeatherModel.swift */,
+				F6AA192828AB82C100F1876D /* EndPoint.swift */,
+				F6AA192A28AB82CC00F1876D /* APIManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6AA191F28AB7C3E00F1876D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA191028AB7C2A00F1876D /* Main.storyboard */,
+				F6AA194328ABAD4A00F1876D /* WeatherImageView.swift */,
+				F6AA194128ABAD3500F1876D /* WeatherImageView.xib */,
+				F6AA194728ABADAE00F1876D /* ContentLableView.swift */,
+				F6AA194928ABAE0700F1876D /* ContentLableView.xib */,
+				F6AA194B28ABAFFD00F1876D /* ImageTableViewCell.swift */,
+				F6AA194C28ABAFFD00F1876D /* ImageTableViewCell.xib */,
+				F6AA194F28ABB00B00F1876D /* TextTableViewCell.swift */,
+				F6AA195028ABB00B00F1876D /* TextTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6AA192028AB7C4300F1876D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA190E28AB7C2A00F1876D /* ViewController.swift */,
+				F6AA190A28AB7C2A00F1876D /* AppDelegate.swift */,
+				F6AA190C28AB7C2A00F1876D /* SceneDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6AA192528AB7EC500F1876D /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA192628AB7ED900F1876D /* APIKey.swift */,
+			);
+			path = Key;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,11 @@
 			dependencies = (
 			);
 			name = "SeSAC Week6 OpenWeather API";
+			packageProductDependencies = (
+				F6AA192D28AB85B000F1876D /* Alamofire */,
+				F6AA193028AB85BB00F1876D /* SwiftyJSON */,
+				F6AA193B28ABA3CA00F1876D /* Kingfisher */,
+			);
 			productName = "SeSAC Week6 OpenWeather API";
 			productReference = F6AA190728AB7C2A00F1876D /* SeSAC Week6 OpenWeather API.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +193,11 @@
 				Base,
 			);
 			mainGroup = F6AA18FE28AB7C2A00F1876D;
+			packageReferences = (
+				F6AA192C28AB85B000F1876D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F6AA192F28AB85BB00F1876D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				F6AA193A28ABA3CA00F1876D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F6AA190828AB7C2A00F1876D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA194E28ABAFFD00F1876D /* ImageTableViewCell.xib in Resources */,
+				F6AA192428AB7EA900F1876D /* .gitignore in Resources */,
+				F6AA194228ABAD3500F1876D /* WeatherImageView.xib in Resources */,
 				F6AA191728AB7C2B00F1876D /* LaunchScreen.storyboard in Resources */,
+				F6AA194A28ABAE0700F1876D /* ContentLableView.xib in Resources */,
 				F6AA191428AB7C2B00F1876D /* Assets.xcassets in Resources */,
+				F6AA195228ABB00B00F1876D /* TextTableViewCell.xib in Resources */,
 				F6AA191228AB7C2A00F1876D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA192928AB82C100F1876D /* EndPoint.swift in Sources */,
 				F6AA190F28AB7C2A00F1876D /* ViewController.swift in Sources */,
+				F6AA194828ABADAE00F1876D /* ContentLableView.swift in Sources */,
 				F6AA190B28AB7C2A00F1876D /* AppDelegate.swift in Sources */,
+				F6AA195128ABB00B00F1876D /* TextTableViewCell.swift in Sources */,
+				F6AA192228AB7C6A00F1876D /* WeatherModel.swift in Sources */,
 				F6AA190D28AB7C2A00F1876D /* SceneDelegate.swift in Sources */,
+				F6AA192728AB7ED900F1876D /* APIKey.swift in Sources */,
+				F6AA194D28ABAFFD00F1876D /* ImageTableViewCell.swift in Sources */,
+				F6AA192B28AB82CC00F1876D /* APIManager.swift in Sources */,
+				F6AA194428ABAD4A00F1876D /* WeatherImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +393,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +405,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +460,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6AA192C28AB85B000F1876D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F6AA192F28AB85BB00F1876D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F6AA193A28ABA3CA00F1876D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6AA192D28AB85B000F1876D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6AA192C28AB85B000F1876D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F6AA193028AB85BB00F1876D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6AA192F28AB85BB00F1876D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		F6AA193B28ABA3CA00F1876D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6AA193A28ABA3CA00F1876D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F6AA18FF28AB7C2A00F1876D /* Project object */;
 }
